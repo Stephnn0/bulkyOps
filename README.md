@@ -1,4 +1,5 @@
-#Shopify Bulk Operations App
+Shopify Bulk Operations App
+<img width="651" alt="Screenshot 2024-01-30 at 8 26 12 PM" src="https://github.com/stefanoHTB/bulkyOps/assets/104746605/8438988a-6ee6-4f3b-880d-0cd0bc554f3d">
 Welcome to the Shopify Bulk Operations App, an open-source project designed to streamline data import and export using the Shopify API.
 
 Features
