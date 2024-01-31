@@ -1,0 +1,27 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "207970dfc27cb2eff7f97458f1e04c48"
+name = "youtube-tutorial"
+application_url = "https://vote-broken-workstation-hydraulic.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "oroa-development.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://vote-broken-workstation-hydraulic.trycloudflare.com/auth/callback",
+  "https://vote-broken-workstation-hydraulic.trycloudflare.com/auth/shopify/callback",
+  "https://vote-broken-workstation-hydraulic.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
